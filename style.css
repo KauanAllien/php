@@ -1,0 +1,91 @@
+body{
+    background-color:rgb(141, 135, 135);
+}
+
+
+.painel{
+    width: 400px;           
+    margin: auto;
+    box-shadow: 5px 5px 15px black;
+    border-radius: 14px;
+    padding: 17px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: aliceblue;
+}           
+
+
+h1{
+    margin: 0;
+    color: #005594;
+}
+
+.conteudo{
+    color: rgb(226, 121, 9);
+    
+}
+
+#postagem{
+    color: rgb(251, 245, 245);
+    background-color: rgb(10, 10, 10);
+}
+
+textarea{
+    padding: 10px;
+    border: 1px solid rgb(250, 248, 248);
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.enviar{
+    background-color: #005594;
+    padding: 10px;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background-color: rgb(218, 119, 6);
+}
+
+.button{
+    background-color:#005594 ;
+    border-radius: 5px;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.button:hover{
+    background-color: #ce7807;
+    color: aliceblue;
+}
+
+a{
+    display: block;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fafcfd;
+}
+
+.card{
+    background-color: aliceblue;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+    text-align: left;
+    box-shadow: 2px 2px 2px black;   
+}
+
+.card:hover{
+    width: 95%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 10px black;
+}
+
+strong{
+    color: #005594;
+}
