@@ -37,7 +37,7 @@
 
             if($_SERVER['REQUEST_METHOD'] == "POST" && isset($_POST['id'])){
                 $id = $_POST['id'];
-                $sql = "DELETE FROM tabela_mensagem WHERE id= $id";
+                $sql = "DELETE FROM tabela_mensagens WHERE id= $id";
                 $conexao -> query($sql);
             }
 
@@ -49,7 +49,7 @@
         <div class="chat">
                 <?php
                 //Script Sql de Seleção
-                    $sql = "SELECT usuario, mensagem, id FROM tabela_mensagens";
+                    $sql = "SELECT usuario, mensagem, id FROM tabela_mensagens ORDER BY id DESC";
                     // Faz execução e armazena todos os registros
                     $resultado = $conexao -> query($sql);
                     //Verifica se o número de registros é maior que zero
